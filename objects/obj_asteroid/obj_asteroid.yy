@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_asteroid",
   "spriteId": {
-    "name": "Spr_asteroid_huge",
-    "path": "sprites/Spr_asteroid_huge/Spr_asteroid_huge.yy",
+    "name": "spr_asteroid_huge",
+    "path": "sprites/spr_asteroid_huge/spr_asteroid_huge.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
