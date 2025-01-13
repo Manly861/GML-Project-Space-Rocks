@@ -2,8 +2,16 @@
 // You can write your code in this editor
 switch(room){
 	case rm_game:
-		draw_text(20,20, "SCORE: " + string(score));
-		draw_text(20,40, "LIVES: " + string(lives));
+		var c = c_lime;
+		draw_text_transformed_color(
+			20, 20, "SCORES: " + string(score),
+			1.2, 1.2, 0,c,c,c,c, 1  
+		);
+		var c = c_red;
+		draw_text_transformed_color(
+			20, 40, "LIVES: " + string(lives),
+			1, 1, 0,c,c,c,c, 1  
+		);
 		break;
 	case rm_start:
 		draw_set_halign(fa_center);
