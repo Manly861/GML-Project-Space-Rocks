@@ -22,4 +22,6 @@ displayHeight = cameraHeight * displayScale;
 window_set_size(displayWidth,displayHeight);
 surface_resize(application_surface, displayWidth, displayHeight);
 
+//GUI
+display_set_gui_size(cameraWidth, cameraHeight);
 alarm[0] = 1;
